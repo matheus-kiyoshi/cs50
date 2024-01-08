@@ -1,0 +1,5 @@
+#compiled files
+**/output/
+
+#config files
+.vscode/
