@@ -71,10 +71,10 @@ int main(int argc, char *argv[])
 
     pair_count = 0;
     int voter_count;
-    printf("Number of voters: ");
     int ret;
-    printf("Height: ");
-    do {
+    printf("Number of voters: ");
+    do 
+    {
        ret = scanf("%i", &voter_count);
       if (ret != 1 || voter_count < 0) {
           while (getchar() != '\n');

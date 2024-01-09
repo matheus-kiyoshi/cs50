@@ -9,7 +9,8 @@ int main(void)
 	long long int card_number;
 	int ret;
 	printf("Number: ");
-	do {
+	do 
+	{
        ret = scanf("%lld", &card_number);
       if (ret != 1 || card_number < 0) {
           while (getchar() != '\n');

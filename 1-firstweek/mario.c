@@ -7,7 +7,8 @@ int main(void)
     int height;
     int ret;
     printf("Height: ");
-    do {
+    do 
+    {
        ret = scanf("%i", &height);
       if (ret != 1 || height < 0) {
           while (getchar() != '\n');

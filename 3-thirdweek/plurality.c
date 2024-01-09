@@ -40,7 +40,8 @@ int main(int argc, char *argv[])
     printf("Number of voters: ");
     int voter_count;
     int ret;
-    do {
+    do 
+    {
        ret = scanf("%i", &voter_count);
       if (ret != 1 || voter_count < 1) {
           while (getchar() != '\n');
